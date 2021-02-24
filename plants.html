@@ -9,6 +9,37 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .table {
+            width: 95%;
+            color: #212529;
+            margin: 30px;
+            border: 8px solid #dc8606;
+        }
+
+        td {
+            border: 3px solid rgb(248, 245, 86);
+
+        }
+
+        .td:hover {
+            color: chocolate;
+            background-color: rgb(115, 235, 235);
+        }
+
+        th {
+            background-color: #0682ec;
+            color: #f1f0f0;
+            border: 3px solid rgb(3, 36, 44);
+            border-bottom: 3px solid rgb(1, 36, 44) !important;
+
+        }
+
+        .thstyle {
+            background-color: #0682ec;
+            color: #f1f0f0;
+        }
+    </style>
 </head>
 
 <body>
@@ -38,15 +69,64 @@
         screen size 575
     </p>
     <div class="container">
-        <img src="Images/Nymphea.jpg" width="350"  class="img-fluid">
+        <img src="Images/Nymphea.jpg" width="350" class="img-fluid">
         <img src="Images/daisy.jpg" width="350" class="img-fluid">
         <img src="Images/everlasting.jpg" width="350" class="img-fluid">
-     </div>
-     <div class="container">
+    </div>
+    <div class="container">
         <img src="Images/Nymphea.jpg" width="100" class="img-thumbnail">
         <img src="Images/daisy.jpg" width="100" class="img-thumbnail">
         <img src="Images/everlasting.jpg" width="100" class="img-thumbnail">
-     </div>
+    </div>
+    <table class="table table-hover">
+        <caption>Plants, Cities and Food starts with sandep</caption>
+        <thead>
+            <tr>
+                <th scope="col">Letter</th>
+                <th scope="col">Plant</th>
+                <th scope="col">City</th>
+                <th scope="col">Food</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="thstyle">S</td>
+                <td class="td">SANDWORT</td>
+                <td class="td">Singapore</td>
+                <td class="td">Samosa</td>
+            </tr>
+            <tr>
+                <td class="thstyle">A</td>
+                <td class="td">ABELIA</td>
+                <td class="td">Abu Dhabi</td>
+                <td class="td">Allu</td>
+            </tr>
+            <tr>
+                <td class="thstyle">N</td>
+                <td class="td">RADISH</td>
+                <td class="td">Nampa</td>
+                <td class="td">Naan Bread</td>
+            </tr>
+            <tr>
+                <td class="thstyle">D</td>
+                <td class="td">DAISIES</td>
+                <td class="td">Dallas</td>
+                <td class="td">Dasheen</td>
+            </tr>
+            <tr>
+                <td class="thstyle">E</td>
+                <td class="td">ELDERBERRY</td>
+                <td class="td">Elizabeth</td>
+                <td class="td">Eggroll</td>
+            </tr>
+            <tr>
+                <td class="thstyle">P</td>
+                <td class="td">PALMETTO</td>
+                <td class="td">Phoenix</td>
+                <td class="td">potatoes</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
